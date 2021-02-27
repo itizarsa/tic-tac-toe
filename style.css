@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Balsamiq Sans', cursive;
+	background-color: #222831;
+	color: #00adb5;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+section {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.game-title {
+	margin: 0px 50px;
+	font-family: 'Sigmar One', cursive;
+}
+
+.game-container {
+	display: grid;
+	width: 304px;
+	margin: 50px auto;
+	grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+	font-family: "Courier New", monospace;
+	cursor: pointer;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	font-size: 70px;
+}
+
+.square.top {
+	border-bottom: solid #e8c5bd5c;
+}
+
+.square.bottom {
+	border-top: solid #e8c5bd5c;
+}
+
+.square.left {
+	border-right: solid #e8c5bd5c;
+}
+
+.square.right {
+	border-left: solid #e8c5bd5c;
+}
+
+.button {
+	border: none;
+	width: 200px;
+	height: 50px;
+	margin: 40px 20px;
+	background-color: #ea1752cf;
+	border-radius: 15px;
+	font-size: 1.4rem;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+}
